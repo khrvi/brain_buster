@@ -11,6 +11,8 @@ Some example question and answers are:
 
 For more on logic captchas and alternate approaches, please see http://www.w3.org/TR/turingtest/#logic
 
+Add Localization to Brain busters system
+
 Install
 -------
 
