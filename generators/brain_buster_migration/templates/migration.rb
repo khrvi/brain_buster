@@ -75,8 +75,8 @@ class <%= class_name %> < ActiveRecord::Migration
   end
 
   # create a logic captcha - answers should be lower case
-  def self.create(question, answer)
-    BrainBuster.create(:question => question, :answer => answer.downcase)
+  def self.create(question, answer, locale)
+    BrainBuster.create(:question => question, :answer => answer.downcase, :locale => locale)
   end
 
 end
